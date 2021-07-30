@@ -1,0 +1,40 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.Form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-bottom: 1rem;
+}
+
+.Form-label {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.Form-control {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+textarea.Form-control {
+  min-height: 100px;
+}
+
+.Form-button {
+  width: 100%;
+}
+
+
+.List {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid grey;
+  width: 50%;
+}
